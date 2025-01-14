@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tric</title>
+    <link rel="icon" href="https://i.ibb.co/f4mFGz4/tric.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="components/bar.js" defer></script>
+</head>
+    <body>
+        <header class="navbar">
+            <div class="container">
+                <div style="display: flex; justify-content: center;align-items: center;"><img src="https://i.ibb.co/f4mFGz4/tric.jpg" alt="tric" title="Tric" >
+                <h1 class="logo">Tricen!</h1></div>
+                <label for="search"><i class="fas fa-search"></i></label>
+                <input type="search" class="search" placehoder="Search...">
+                 
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-info"></i> About</a></li>
+                        <li><a href="service.html"><i class="fas fa-code"></i> Services</a></li>
+                        <li><a href="shop.html"><i class="fas fa-shop"></i> shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to Our Web!</h2>
+                <p>Your one-stop solution for tech services</p>
+            <button class="get-started-btn">Get Started</button>
+            </div>
+        </section>
+
+        
+
+        <section id="about" class="about">
+            <div class="container">
+                <i class="fas fa-info"></i>
+                <h2>About Us</h2>
+                <p>We provide top-notch tech services to help you succeed.</p>
+                <button><a href="about.html">Learn More</a></button>
+            </div>
+        </section>
+    
+        <section id="services" class="services">
+            <div class="container">
+                <i class="fas fa-code"></i>
+                <h2>Our Services</h2>
+                <p>Explore the wide range of services we offer.</p>
+                <button><a href="shop.html">Learn More</a></button>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <div class="container">
+                <i class="fas fa-phone"></i>
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any queries or support.</p>
+                <button> <a href="about.html">Learn More</a></button>
+            </div>
+        </section>
+    
+        
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2023 Tric. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+    
+    </body>    
+    <script src="script.js">
+        // Call the createBar function to generate the bar component
+        createBar();
+    </script>
+</html>
